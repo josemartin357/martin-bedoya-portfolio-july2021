@@ -14,7 +14,7 @@ body {
 
 /*CSS FOR HEADER SECTION*/
 header {
-    background-image: url(/assets/images/background-coding.jpg);
+    background-image: url(./assets/images/background-coding.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -141,7 +141,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(/assets/images/pic1.jpg);
+    background-image: url(./assets/images/pic1.jpg);
     width: 1100px;
     height: 460px;
     padding: 1% 2%;
@@ -202,19 +202,19 @@ h5 {
 }
 
 .card-1 {
-    background-image: url(/assets/images/pic1.jpg);
+    background-image: url(./assets/images/pic1.jpg);
 }
 
 .card-2 {
-    background-image: url(/assets/images/pic2.jpg);
+    background-image: url(./assets/images/pic2.jpg);
 }
 
 .card-3 {
-    background-image: url(/assets/images/pic3.jpg);
+    background-image: url(./assets/images/pic3.jpg);
 }
 
 .card-4 {
-    background-image: url(/assets/images/pic4.jpg);
+    background-image: url(./assets/images/pic4.jpg);
 }
 
 .card:hover {
