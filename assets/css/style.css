@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
   }
 
 body {
@@ -76,6 +77,16 @@ nav ul {
   }
 /*CSS FOR HEADER SECTION*/
 
+.hyperlinks:hover {
+    text-decoration: underline rgb(63, 61, 73);
+    text-shadow: 10px;
+  }
+
+.hyperlinkBigbox:hover {
+    text-decoration: underline rgb(63, 61, 73);
+    text-shadow: 10px;
+  }
+
 
 /* CSS FOR ABOUT ME SECTION*/
 .about {
@@ -131,18 +142,14 @@ nav ul {
     justify-content: center;
 }
 
-/* .box-hyperlinks {
-    text-decoration: none;
-} */
-
 #card-0 {
     /* flex: 11; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(../images/gifcast-screenshot.jpeg);
-    backdrop-filter: blur(120px);
+    background-image: url(../images/gifcast-screenshot.png);
+    /* backdrop-filter: blur(3000px); */
     width: 1100px;
     height: 460px;
     padding: 1% 2%;
@@ -151,22 +158,22 @@ nav ul {
     box-sizing: border-box;
     /* cursor: pointer; */
     margin: 0 21% 0 15%;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     transition: transform 0.5s;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px;
+    box-shadow: 5px 10px rgb(63, 61, 73);
 }
 
 #card-0 p {
-    text-shadow: 0 0 15px #000;
-    font-size: 150%;
+    text-shadow: 0px -3px 0px white;
+    font-size: 170%;
     display: flex;
     text-decoration: none;
     color: #000;
+    font-weight: bolder;
 }
-
 
 .col{
     display: flex;
@@ -192,41 +199,52 @@ nav ul {
     text-decoration: none;
 }
 
+.hyperlinkBigbox{
+    text-decoration: none;
+    font-size: 170%;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px -3px 0px white;
+}
+
 .hyperlinks {
     text-decoration: none;
-    font-size: 120%;
+    font-size: 150%;
     color: black;
-    text-shadow: 0 0 15px #999;
+    text-shadow: 0px -3px 0px white;
+    font-weight: bold;
 }
 
 h5 {
     color: rgb(32, 32, 32);
-    text-shadow: 0 0 15px #999;
+    text-shadow: 0px -3px 0px white;
     display: flex;
-    font-size: 200%;
+    font-size: 220%;
+    font-weight: bolder;
 }
 
 .card p {
-    text-shadow: 0 0 15px #000;
-    font-size: 150%;
+    text-shadow: 0px -3px 0px white;
+    font-size: 155%;
     display: flex;
     color: black;
+    font-weight: bold;
 }
 
 .card-1 {
     background-image: url(../images/codequiz-screenshot.jpeg);
-    backdrop-filter: blur(100px);
+    /* backdrop-filter: blur(400px); */
     border: 1px solid grey;
     padding: 10px;
-    box-shadow: 5px 10px grey;
+    box-shadow: 5px 10px rgb(63, 61, 73);
 }
 
 .card-2 {
     background-image: url(../images/scheduler-screenshot.jpeg);
-    backdrop-filter: blur(100px);
+    /* backdrop-filter: blur(400px); */
     border: 1px solid grey;
     padding: 10px;
-    box-shadow: 5px 10px grey;
+    box-shadow: 5px 10px rgb(63, 61, 73);
 }
 
 .card-3 {
