@@ -17,15 +17,14 @@ Worked on by Martin Bedoya on 8/16/2021 and updated on 11/27/2021.
 ## Screenshot sample
 <br>
 Desktop version
-<br>
 ![portfolio-desktop](https://user-images.githubusercontent.com/83382332/143782158-8ec3a5cb-094e-4f92-a925-0a48bdf39d66.png)
+
 <br>
 Tablet version
-<br>
 ![portfolio-tablet](https://user-images.githubusercontent.com/83382332/143782166-227c26ed-fe9a-4730-91b2-46e7610a5bab.jpg)
+
 <br>
 Mobile version
-<br>
 ![portfolio-mobile](https://user-images.githubusercontent.com/83382332/143782169-6ff05b8f-45f8-4057-82ee-be7258af058b.jpg)
 
 
